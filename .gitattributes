@@ -1,0 +1,6 @@
+# Do not convert to LF
+* text=false
+
+# Treat files as text files
+*.wri           diff=utf16
+*.dat           diff=utf16
