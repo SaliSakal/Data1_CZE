@@ -1,10 +1,6 @@
-# Handle line endings automatically for files detected as text
-# and leave all files detected as binary untouched.
+# Do not convert to LF
 * text=false
 
-#
-# The above will handle all files NOT found below
-#
-# These files are text and should be normalized (Convert crlf => lf)
+# Treat files as text files
 *.wri           diff
 *.dat           diff
