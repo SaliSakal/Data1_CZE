@@ -2,5 +2,5 @@
 * text=false
 
 # Treat files as text files
-*.wri           diff
-*.dat           diff
+*.wri           diff=utf16
+*.dat           diff=utf16
